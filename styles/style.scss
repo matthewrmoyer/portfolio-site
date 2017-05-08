@@ -1,0 +1,179 @@
+@import url("reset.css");
+
+* { box-sizing: border-box; }
+
+
+// colors
+$red: hsl(357, 77%, 69%);
+$background-grey: hsl(0, 0%, 85%);
+$text-grey: hsl(0, 0%, 28%);
+$accent-blue: hsl(185, 76%, 48%);
+$dark-accent: hsl(0, 0%, 20%);
+$body-font-size: calc(12px + 1vw);
+$navbar-list-item-height: calc(50px + 3vh);
+
+
+body{
+	background-color: $background-grey;
+	color: $text-grey;
+	line-height: 1.25;
+	font-size: $body-font-size;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	margin-left: calc(10px + 1vw);
+	margin-right: calc(10px + 1vw);
+}
+
+.name-and-link-heading-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name{
+	font-size: calc(#{$body-font-size} * 3);
+	font-weight: 3;
+}
+
+.heading-link-container{
+	display: flex;
+	justify-content: center;
+}
+
+.first-name{
+	color: $text-grey;
+}
+
+.last-name{
+	color: $red;
+}
+
+.job-title-container{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: calc(1px + .5vw) solid $dark-accent;
+	align-items: flex-end;
+}
+
+.title{
+	font-size: calc(#{$body-font-size} * 1.5);
+}
+.title-first-word{
+	color: $red;
+}
+.title-second-word{
+	color: $text-grey;
+}
+
+.navbar-list{
+	display: flex;
+	justify-content: space-between;
+	margin-top: calc(25px + 3vh);
+	margin-bottom: calc(25px + 3vh);
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+.navbar-list-item{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $red;
+	border: 3px solid $dark-accent;
+	cursor: pointer;
+	user-select: none;
+	min-width: 150px;
+	width: calc(150px + 10vw);
+	text-align: center;
+	min-height: 100px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.list-item-text{
+	width: 100%;
+	// background-color: orange;
+	min-height: 100px;
+	height: $navbar-list-item-height;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	&:hover{
+		background-color: lighten($red, 10);
+	}
+}
+
+.about-container-container{
+	display: flex;
+	justify-content: center;
+	// display: none;
+}
+
+.about-container{
+	// display: none;
+}
+
+.project-container{
+	display: flex;
+	justify-content: space-between;
+	margin-top: calc(10px + 1.5vh);
+	margin-bottom: calc(10px + 1.5vh);
+}
+
+.project-title-and-technology-container{
+	display: flex;
+	flex-direction: column;
+}
+.project-title{
+	color: $red;
+}
+.project-technology-list{
+
+}
+.project-technology-list-item{
+	display: inline;
+	&:before{
+		content:" • "
+	}
+}
+
+.languages-container{
+	display: flex;
+	justify-content: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 90vw;
+	margin-top: calc(10px + 3vh);
+}
+.tools-container{
+	display: flex;
+	justify-content: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 90vw;
+	margin-top: calc(10px + 3vh);
+}
+
+.languages-and-tools-list-item{
+	display: inline;
+	margin-left: 10px;
+}
+
+.links-container{
+	display: flex;
+	flex-direction: column;
+	a{
+		color: darken($accent-blue, 15);
+	}
+}
+// manipulator classes
+.accent-blue-border{
+	border: 3px solid darken($accent-blue, 10);
+}
+
+.display-none{
+	display: none;
+}
