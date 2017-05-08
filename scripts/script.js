@@ -1,8 +1,10 @@
 $(document).ready(function() {
 
 	$('.about').addClass('display-none')
-	// $('.project-container').addClass('display-none')
+	$('.project-container').addClass('display-none')
 	$('.languages-and-tools-container').addClass('display-none')
+	$('.contact-container').addClass('display-none')
+
 
 
 	$("body").on("click", ".list-item-text", function(e) {
@@ -19,10 +21,17 @@ $(document).ready(function() {
 			$('.project-container').removeClass('display-none')
 			$('.about').addClass('display-none')
 			$('.languages-and-tools-container').addClass('display-none')
+			$('.contact-container').addClass('display-none')
 		} else if (this.innerText == "About") {
 			$('.about').removeClass('display-none')
 			$('.languages-and-tools-container').removeClass('display-none')
 			$('.project-container').addClass('display-none')
+			$('.contact-container').addClass('display-none')
+		} else if (this.innerText == "Contact"){
+			$('.contact-container').removeClass('display-none')
+			$('.languages-and-tools-container').addClass('display-none')
+			$('.project-container').addClass('display-none')
+			$('.about').addClass('display-none')
 		}
 	});
 
