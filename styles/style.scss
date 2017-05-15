@@ -80,6 +80,7 @@ main{
 
 .navbar-list{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: calc(25px + 3vh);
 	margin-bottom: calc(25px + 3vh);
@@ -102,6 +103,8 @@ main{
 	min-height: 100px;
 	margin-left: 5px;
 	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .list-item-text{
 	width: 100%;
