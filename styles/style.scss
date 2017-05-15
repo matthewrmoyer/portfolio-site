@@ -128,18 +128,27 @@ main{
 
 .about-container{
 	// display: none;
+	background-color: white;
+	border: 5px solid $dark-accent;
+	padding: 20px;
+	line-height: 2;
 }
 
 .project-container{
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	margin-top: calc(10px + 1.5vh);
 	margin-bottom: calc(10px + 1.5vh);
+	background-color: white;
+	border: 5px solid $dark-accent;
 }
 
 .project-title-and-technology-container{
 	display: flex;
 	flex-direction: column;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 .project-title{
 	color: $red;
@@ -154,6 +163,10 @@ main{
 	}
 }
 
+.project-description{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 .languages-container{
 	display: flex;
 	justify-content: center;
@@ -161,6 +174,10 @@ main{
 	margin-right: 5vw;
 	width: 90vw;
 	margin-top: calc(10px + 3vh);
+	background-color: white;
+	border: 5px solid $dark-accent;
+	padding: 20px;
+
 }
 .tools-container{
 	display: flex;
@@ -169,6 +186,10 @@ main{
 	margin-right: 5vw;
 	width: 90vw;
 	margin-top: calc(10px + 3vh);
+	background-color: white;
+	border: 5px solid $dark-accent;
+	padding: 20px;
+	line-height: 1.5;
 }
 
 .languages-and-tools-list-item{
@@ -188,8 +209,16 @@ main{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: white;
+	border: 5px solid $dark-accent;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	line-height: 3;
+
 		a{
 		color: darken($accent-blue, 15);
 	}

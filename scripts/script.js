@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 	$('.about').addClass('display-none')
+	$('.about-container').addClass('display-none')
 	$('.project-container').addClass('display-none')
 	$('.languages-and-tools-container').addClass('display-none')
 	$('.contact-container').addClass('display-none')
@@ -20,10 +21,14 @@ $(document).ready(function() {
 			console.log('text is projects')
 			$('.project-container').removeClass('display-none')
 			$('.about').addClass('display-none')
+			$('.about-container').addClass('display-none')
+
 			$('.languages-and-tools-container').addClass('display-none')
 			$('.contact-container').addClass('display-none')
 		} else if (this.innerText == "About") {
 			$('.about').removeClass('display-none')
+			$('.about-container').removeClass('display-none')
+
 			$('.languages-and-tools-container').removeClass('display-none')
 			$('.project-container').addClass('display-none')
 			$('.contact-container').addClass('display-none')
@@ -32,6 +37,8 @@ $(document).ready(function() {
 			$('.languages-and-tools-container').addClass('display-none')
 			$('.project-container').addClass('display-none')
 			$('.about').addClass('display-none')
+			$('.about-container').addClass('display-none')
+
 		}
 	});
 
