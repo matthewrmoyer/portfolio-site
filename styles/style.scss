@@ -183,6 +183,9 @@ main{
 	align-items: center;
 	margin-left: 100px;
 	margin-right: 100px;
+		a{
+		color: darken($accent-blue, 15);
+	}
 }
 // manipulator classes
 .accent-blue-border{
