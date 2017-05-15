@@ -158,8 +158,15 @@ main{
 }
 .project-technology-list-item{
 	display: inline;
-	&:before{
-		content:" • "
+	text-shadow: 0 0 2px $red;
+	font-size: $body-font-size;
+	vertical-align: middle;
+	i{
+		font-size: calc(30px + 1vw);
+		line-height: 1.5;
+		text-shadow: 0 0 2px $red;
+		margin-right: 10px;
+		vertical-align: middle;
 	}
 }
 
