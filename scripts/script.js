@@ -2,9 +2,10 @@ $(document).ready(function() {
 
 	$('.about').addClass('display-none')
 	$('.about-container').addClass('display-none')
-	$('.project-container').addClass('display-none')
+	// $('.project-container').addClass('display-none')
 	$('.languages-and-tools-container').addClass('display-none')
 	$('.contact-container').addClass('display-none')
+	// $("#player").addClass('display-none');
 
 
 
