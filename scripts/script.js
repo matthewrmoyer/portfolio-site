@@ -5,9 +5,15 @@ $(document).ready(function() {
 	// $('.project-container').addClass('display-none')
 	$('.languages-and-tools-container').addClass('display-none')
 	$('.contact-container').addClass('display-none')
-	// $("#player").addClass('display-none');
+	$(".video-container").addClass('display-none');
 
+	$(".enviropi-video-play-button").on('click', () => {
+		$(".enviropi-video-container").toggleClass('display-none');
+	})
 
+	$(".getmesafe-video-play-button").on('click', () => {
+		$(".getmesafe-video-container").toggleClass('display-none');
+	})
 
 	$("body").on("click", ".list-item-text", function(e) {
 		//without this the click on the netflix-play-button would also click the module-movie

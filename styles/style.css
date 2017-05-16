@@ -121,7 +121,8 @@ main {
   margin-bottom: 5px; }
 
 .project-title {
-  color: #ed7379; }
+  color: #ed7379;
+  font-size: calc(calc(12px + 1vw) * 1.5); }
 
 .project-technology-list-item {
   display: inline;
@@ -171,6 +172,9 @@ main {
   flex-direction: column; }
   .links-container a {
     color: #148994; }
+
+.video-play-button {
+  cursor: pointer; }
 
 .contact-container {
   display: flex;

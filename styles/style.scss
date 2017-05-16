@@ -152,6 +152,7 @@ main{
 }
 .project-title{
 	color: $red;
+	font-size: calc(#{$body-font-size} * 1.5);
 }
 .project-technology-list{
 
@@ -210,6 +211,13 @@ main{
 	a{
 		color: darken($accent-blue, 15);
 	}
+}
+.video-container{
+
+}
+
+.video-play-button{
+	cursor: pointer;
 }
 
 .contact-container{
