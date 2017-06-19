@@ -1,0 +1,110 @@
+$accent-blue: hsl(185, 76%, 48%);
+$red: hsl(357, 77%, 69%);
+
+body {
+	line-height: 2;
+}
+
+.matthew-moyer {
+	// color: darken($accent-blue, 15);
+	text-shadow: 0px 0px 1px white;
+}
+
+.parallax-1-text{
+	color: black;
+	text-shadow: 0px 0px 2px white;
+	font-weight: 400;
+}
+
+.parallax-2-text{
+	color: black;
+	// text-shadow: 0px 0px 1px black;
+	padding-top: 20px !important;
+	padding-bottom: 20px !important;
+
+	font-size: 30px;
+	font-weight: 400;
+	// box-shadow: 100px 100px 1000px darken(#939390, 5);
+	background-color: #939390;
+	height: 500px;
+}
+
+.parallax-3-text{
+	color: black;
+	text-shadow: 0px 0px 2px white;
+	font-weight: 400;
+}
+
+
+.parallax-1-btn {
+	background-color: $red;
+}
+.project-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	h5 {
+		height: 50px;
+	}
+}
+
+.project-technology-list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.project-technology-list-item {
+	display: inline;
+	margin: 5px;
+	i {
+		font-size: 22px;
+	}
+}
+
+.links-container {
+	display: flex;
+	justify-content: center;
+	.link-item {
+		margin-left: 10px;
+		margin-right: 10px;
+
+			&:hover{
+				color: darken(#039BE5, 20) !important;
+			}
+	}
+	i {
+		margin-right: 2px;
+	}
+}
+.link-item {
+	margin: 5px;
+}
+
+.video-play-link{
+	cursor: pointer;
+}
+
+.profile-links-container{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+
+	a{
+		margin-left: 50px;
+		margin-right: 50px;
+
+	i {
+		font-size:  30px;
+		&:hover {
+				color: darken(#039BE5, 20) !important;
+			}
+	}
+	}
+}
+
+// manipulator classes
+
+.display-none {
+	display: none;
+}
