@@ -2,7 +2,34 @@ body {
   line-height: 2; }
 
 .material-icons {
-  font-size: 30px; }
+  font-size: 60px; }
+
+.web-icon {
+  color: #1dc8d7; }
+
+.code-icon {
+  color: #ed7379; }
+
+.tool-icon {
+  color: black; }
+
+.fa-mobile {
+  color: black; }
+
+.fa-envelope {
+  color: #ed7379; }
+
+.fa-pagelines {
+  color: green; }
+
+.fa-television {
+  color: grey; }
+
+.fa-life-ring {
+  color: #990000; }
+
+.fa-plane {
+  color: #4d4d4d; }
 
 .matthew-moyer {
   text-shadow: 0px 0px 1px white; }

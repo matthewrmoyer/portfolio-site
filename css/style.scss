@@ -5,9 +5,40 @@ body {
 	line-height: 2;
 }
 
+// icon colors
 .material-icons {
-	font-size: 30px;
+	font-size: 60px;
 }
+.web-icon {
+	color: $accent-blue;
+}
+.code-icon {
+	color: $red;
+}
+.tool-icon {
+	color: black;
+}
+.fa-mobile {
+	color: black;
+}
+.fa-envelope {
+	color: $red;
+}
+.fa-pagelines {
+	color: green;
+}
+.fa-television {
+	color: grey;
+}
+.fa-life-ring {
+	color: darken(red, 20);
+}
+.fa-plane {
+	color: darken(grey, 20);
+}
+
+
+
 .matthew-moyer {
 	// color: darken($accent-blue, 15);
 	text-shadow: 0px 0px 1px white;
