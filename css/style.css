@@ -57,6 +57,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+  .project-container h5 {
+    height: 50px; }
 
 .project-technology-list {
   display: flex;
