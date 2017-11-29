@@ -56,9 +56,11 @@ body {
 .project-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 50px; }
   .project-container h5 {
-    height: 50px; }
+    height: 50px;
+    margin-bottom: -10px; }
 
 .project-technology-list {
   display: flex;
